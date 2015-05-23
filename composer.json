@@ -1,0 +1,25 @@
+{
+    "name": "tanlabs/alipay",
+    "description": "A php module to integrate with alipay",
+    "type": "library",
+    "keywords": ["payment", "alipay"],
+    "require": {
+        "php": ">=5.4.0",
+        "nategood/httpful": "0.2.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhao Yun",
+            "email": "zyun@duxous.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tanlabs\\alipay\\": "src/"
+        }
+    }
+}
